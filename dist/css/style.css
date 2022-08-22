@@ -158,10 +158,10 @@
 	position: absolute;
 	z-index: 101;
 	background-color: rgba(0, 0, 0, 0.8);
-	top: 35%;
+	top: 30%;
 	left: 50%;
 	color: white;
-	padding: 20px;
+	padding: 15px;
 	text-align: center;
 	transform: translate(-50%, -65%);
 }
@@ -169,6 +169,7 @@
 .header .boxheader .box:nth-child(2) .loc p:nth-child(2) {
 	color: rgba(255, 255, 255, 0.5);
 	margin: 5px 0 0 0;
+	cursor: pointer;
 }
 
 .header .boxheader .box:nth-child(2) .loc p i {
@@ -448,6 +449,10 @@ footer .boxfooter .box:nth-child(3) p span {
 		left: 50%;
 		transform: translate(-50%, -50%) scale(0);
 		border-radius: 10px;
+	}
+
+	.header .boxheader .box:nth-child(1) .menunav ul li {
+		margin: 0;
 	}
 
 	.header .boxheader .box:nth-child(1) .menunav .menu.menuactive {
