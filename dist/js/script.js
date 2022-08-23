@@ -11,5 +11,3 @@ bgNav.addEventListener("click", function (){
 	menuNav.classList.remove("menuactive");
 	bgNav.classList.remove("bgactive");
 });
-
-AOS.init();
