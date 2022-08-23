@@ -598,6 +598,11 @@ footer .boxfooter .box:nth-child(3) p span {
 
 	.about .boxabout .box img {
 		width: 100%;
+		z-index: 1;
+	}
+
+	.about .boxabout .box:nth-child(2){
+		z-index: -1;
 	}
 }
 
